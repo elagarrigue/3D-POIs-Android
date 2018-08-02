@@ -44,5 +44,5 @@ to make it possible transform gps coordinates to OpenGl vertex position (in orde
 	associate with a gps coordinate. In the example, we know that one corner of the Coliseum,
 	with lat=41.89007, lon=12.49344 is in the vertex `235.84084f, -197.85388f` (altitude not used). 
 	This info allow as to performa simple coordinates extrapolation, that it's good enough for a small
-	map portion with not much high diferences.
+	map portion with not much high differences.
 - To use `tomtom` places search, set your key in  `3DPOIsData`, `POIsRepositoryImpl`.
