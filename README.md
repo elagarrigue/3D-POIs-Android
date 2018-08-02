@@ -14,7 +14,7 @@ The app displays a portion of Rome with some coffee places around it.
 
 ## Screenshots ##
 
-![alt text](https://github.com/elagarrigue/3D-POIs-Android/tree/master/screenshots/3DPOIs01.jpg)
+![](screenshots/3DPOIs01.jpg)
 ![alt text](https://github.com/elagarrigue/3D-POIs-Android/tree/master/screenshots/3DPOIs02.jpg)
 ![alt text](https://github.com/elagarrigue/3D-POIs-Android/tree/master/screenshots/3DPOIs03.jpg)
 ![alt text](https://github.com/elagarrigue/3D-POIs-Android/tree/master/screenshots/3DPOIs04.jpg)
