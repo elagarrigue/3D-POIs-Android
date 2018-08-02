@@ -16,10 +16,10 @@ The app displays a portion of Rome with some coffee places around it.
 
 ![](screenshots/3DPOIs01.jpg)
 ![](screenshots/3DPOIs02.jpg)
-![](screenshots/3DPOIs03.jpg)
+<!-- ![](screenshots/3DPOIs03.jpg)
 ![](screenshots/3DPOIs04.jpg)
 ![](screenshots/3DPOIs05.jpg)
-![](screenshots/3DPOIs06.jpg)
+![](screenshots/3DPOIs06.jpg) -->
 ![](screenshots/3DPOIs07.jpg)
 
 ## Main Libraries and Sources ##
