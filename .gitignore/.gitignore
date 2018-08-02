@@ -213,3 +213,26 @@ fabric.properties
 
 
 # End of https://www.gitignore.io/api/java,kotlin,android,androidstudio
+
+# OS X files
+.DS_Store
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm
+
+*.iml
+
+## Directory-based project format:
+.idea/
+
+## File-based project format:
+*.ipr
+*.iws
+
+# Android Studio files
+local.properties
+.gradle
+build/
+
+# Crashlytics files
+com_crashlytics_export_strings.xml
+reports/*
