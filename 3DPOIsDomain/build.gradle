@@ -1,0 +1,41 @@
+apply plugin: 'java-library'
+apply plugin: 'kotlin'
+apply plugin: 'kotlin-kapt'
+
+dependencies {
+  implementation fileTree(dir: 'libs', include: ['*.jar'])
+  implementation "org.jetbrains.kotlin:kotlin-stdlib:1.2.51"
+
+  implementation "com.google.dagger:dagger:2.16"
+  kapt "com.google.dagger:dagger-compiler:2.16"
+  kapt 'com.google.dagger:dagger-android-processor:2.16'
+
+  implementation "io.reactivex:rxjava:1.3.5"
+  implementation "io.reactivex:rxandroid:1.2.1"
+  implementation "com.jakewharton.rxrelay:rxrelay:1.2.0"
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"
+buildscript {
+  ext.kotlin_version = '1.2.51'
+  repositories {
+    mavenCentral()
+  }
+  dependencies {
+    classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+  }
+}
+repositories {
+  mavenCentral()
+}
+compileKotlin {
+  kotlinOptions {
+    jvmTarget = "1.8"
+  }
+}
+compileTestKotlin {
+  kotlinOptions {
+    jvmTarget = "1.8"
+  }
+}
