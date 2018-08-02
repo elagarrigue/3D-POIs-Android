@@ -12,7 +12,7 @@ internal class POIsRepositoryImpl(
   private val tomtomKey = "YOUR_TOMTOM_SEARCH_KEY"
 
   override fun getPOI(center: GeoPoint) : Observable<POI>
-  = tomtomSearchApi.searchAsync("cafe",
+  = tomtomSearchApi.searchAsync("coffee",
       tomtomKey,
       center.lat.toFloat(), center.long.toFloat(), 30000)
       .flatMap { Observable.from(it.results) }

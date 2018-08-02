@@ -13,10 +13,4 @@ class MapInfoResolver @Inject constructor(val poIsRepository: POIsRepository) {
       ))
 
   fun getPOI(position: GeoPoint) = poIsRepository.getPOI(position)
-  /*.flatMap {  Observable.from(listOf(
-      POI(GeoPoint(41.8928315, 12.4929574), "Cafe Coldel Paola"),
-      POI(GeoPoint(41.891496, 12.4927855), "Oppio Cafe"),
-      POI(GeoPoint(41.89123, 12.48984), "Escaleras"),
-      POI(GeoPoint(41.8933142, 12.4887178), "Gustando Roma"))) }*/
-
 }
